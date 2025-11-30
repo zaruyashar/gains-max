@@ -1,41 +1,10 @@
-body {
-    background-image: linear-gradient(135deg, #8ec5fc 0%, #e0c3fc 50%, #84fab0 100%);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Segoe UI", sans-serif;
-    color: #555;
+body.bg-pastel-2 {
+    display: block !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-
-.glass-card {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 50px;
-    border-radius: 25px;
-    box-shadow: 0 15px 35px rgba(132, 250, 176, 0.3);
-    max-width: 600px;
-    width: 90%;
-    text-align: center;
-}
-
-
-.btn-aurora {
-    background-image: linear-gradient(to right, #8ec5fc 0%, #e0c3fc 50%, #84fab0 100%);
-    background-size: 200% auto;
-    border: none;
-    color: white;
-    padding: 12px 30px;
-    border-radius: 50px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: 0.5s;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.btn-aurora:hover {
-    background-position: right center;
-    color: white;
-    transform: translateY(-2px);
+.my-container {
+    margin-top: 0px;
+    margin-bottom: 10px;
 }

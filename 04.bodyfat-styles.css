@@ -109,3 +109,8 @@ body {
     font-weight: 800;
     color: #ffb347;
 }
+
+::placeholder {
+    text-decoration-color: beige;
+    font-style: italic;
+}

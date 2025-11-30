@@ -1,0 +1,111 @@
+body {
+    background-image: linear-gradient(to right, #FFFACD 0%, #FFFFFF 50%, #FFDAB9 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+.my-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+    max-width: 550px;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* --- 3. MOBILE SPECIFIC RULES --- */
+/* If the screen is smaller than 576px (Standard Phones) */
+@media (max-width: 576px) {
+    .my-container {
+        padding: 20px;
+    }
+
+    .my-header {
+        font-size: 1.5rem;
+    }
+
+    #result-display {
+        font-size: 2.5rem;
+    }
+}
+
+
+.my-header {
+    text-align: center;
+    font-weight: 800;
+    color: #555;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.nav-tabs {
+    border-bottom: 2px solid #eee;
+    margin-bottom: 20px;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    color: #999;
+    font-weight: 600;
+    background: transparent;
+}
+
+.nav-tabs .nav-link.active {
+    color: #555;
+    background: transparent;
+    border-bottom: 3px solid #ffba60;
+}
+
+.nav-link:hover {
+    border-color: transparent;
+    color: #ffba60;
+}
+
+
+.form-control {
+    border-radius: 10px;
+    height: 45px;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ffba60;
+    background: #fff;
+}
+
+
+#calc-btn {
+    background-image: linear-gradient(to right, #ffb347 0%, #ffcc33 100%);
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    padding: 12px;
+    margin-top: 20px;
+    transition: transform 0.2s;
+}
+
+#calc-btn:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+
+#result-display {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ffb347;
+}
